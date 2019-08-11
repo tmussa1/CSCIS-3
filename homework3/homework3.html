@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+    <head>
+        <title>CSCI E-3 Homework #3</title>
+        <link rel="stylesheet" href="css/cscie3.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">   
+    </head>
+    <body>
+        
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                My Trip Planner
+            </a>
+        </nav>
+        
+        <div class="form-group col-md-6" style="margin-left: 10%">
+            <label for="flightInfo">Flight Info</label>
+            <input type="text" class="form-control" id="flightInfo" placeholder="Enter itinerary">
+        </div>
+        <div class="form-group col-md-6" style="margin-left: 10%">
+            <label for="hotelInfo">Hotel Info</label>
+            <input type="text" class="form-control" id="hotelInfo" placeholder="Enter hotel booking info">
+        </div>
+        <div class="form-group col-md-6" style="margin-left: 10%">
+            <label for="destination">Destination</label>
+            <input type="text" class="form-control" id="destination" placeholder="Enter destination">
+            </div>
+        <button class="btn btn-primary" id="doit" style="margin-left: 25%">Save My Trip</button>
+        
+
+        <table class="table table-striped" style="width: 40%; margin-left: 15%">
+        <thead>
+            <tr>
+            <th scope="col">Flight Info</th>
+            <th scope="col">Hotel Info</th>
+            <th scope="col">Destination</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><div id="flightDiv"></div></td>
+                <td><div id="hotelDiv"></div></td>
+                <td><div id="destDiv"></div></td>
+            </tr>
+        </table>
+
+        <script type="text/javascript" src="js/homework3.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    </body>
+</html>
